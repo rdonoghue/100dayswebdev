@@ -18,6 +18,8 @@ Day 5:
 - Semantic elements are definitely a bit more fun than just naming a ton of divs but oh god dammit, youc an't just abritrarily create them. Looks like there's a fixed set of known ones that includes header, footer and main. What else?
 - Weird one - firefox didn't wan tot show the favicon until i put a ? at the end of the url. Dunno what's up with that.
 
+### Subjects
+
 #### Selectors & Combinators
 
 - Terminology: Selectors - type, ID, group (multipel types) or class
