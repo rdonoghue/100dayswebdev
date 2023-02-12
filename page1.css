@@ -63,3 +63,7 @@ img {
 .textbody {
   padding: 5px 50px 50px 50px;
 }
+
+.feature {
+  color: blueviolet;
+}
