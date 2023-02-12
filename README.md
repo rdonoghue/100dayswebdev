@@ -16,6 +16,7 @@ Day 5:
 - for things liek padding with 4 values, it's cloclwise from the top (top, right, bottom, left) - if only 2, it's top/bottom left/right
 - 4th value in RGB() is transparency
 - Semantic elements are definitely a bit more fun than just naming a ton of divs but oh god dammit, youc an't just abritrarily create them. Looks like there's a fixed set of known ones that includes header, footer and main. What else?
+- Weird one - firefox didn't wan tot show the favicon until i put a ? at the end of the url. Dunno what's up with that.
 
 #### Selectors & Combinators
 
