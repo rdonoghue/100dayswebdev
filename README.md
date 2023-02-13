@@ -41,3 +41,8 @@ Still figuring this out
 #### Margin Collapse
 
 If vertical margins disagree, they don't stack, they default to the larger on.
+
+#### Curiosu element
+
+- box-sizing
+- object-fit

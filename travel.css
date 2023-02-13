@@ -1,0 +1,109 @@
+main {
+  padding: 0;
+  margin: 0;
+}
+
+#hero {
+  height: 800px;
+  background-image: url("/images/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#herobox {
+  width: 800px;
+  background-color: rgb(51, 47, 47, 0.7);
+  box-shadow: 2px, 4px, 8px, rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+
+#herobox h1 {
+  color: white;
+  font-family: "Railway", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 48px;
+}
+
+#herobox p {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Railway", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#herobox a {
+  color: white;
+  font-family: "Railway", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: rgb(245, 243, 160);
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 2px, 4px, 8px, rgb(68, 67, 67);
+}
+
+#herobox a:hover {
+  background-color: rgb(255, 251, 0);
+}
+
+#highlights {
+  /* background-color: rgb(227, 255, 253); */
+  background: linear-gradient(180deg, rgb(227, 255, 253), rgb(202, 243, 240));
+  margin: 0;
+  padding: 20px;
+}
+
+#destinations {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+.destination p {
+  text-align: center;
+  color: rgb(49, 48, 48);
+  margin: 10px 0;
+
+  /* text-transform: uppercase; */
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+#highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 40px;
+  color: rgb(68, 67, 67);
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
