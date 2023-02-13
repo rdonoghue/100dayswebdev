@@ -32,5 +32,8 @@ a:hover {
   text-align: center;
 }
 
+footer {
+  background: linear-gradient(180deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
 /* ID == octothorp, in contrast with class 
 ID should be unique, that's why there's class*/
