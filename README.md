@@ -26,6 +26,7 @@ Day 5:
 - Combinators: Combinations of selectors
   | Descendent | ex: li p | (space, not comma - comma makes a group)
   | child | ex: li > p |
+  - oh, hwy, > means DIRECT CHILD
 
 Still figuring this out
 
@@ -45,4 +46,65 @@ If vertical margins disagree, they don't stack, they default to the larger on.
 #### Curiosu element
 
 - box-sizing
-- object-fit
+- object-fit (cover)
+- Flex-basis (Set to 100% to make all columns the same size, no matter how many colums. Samr result from flex: 1)
+- outline (instead of background for seeign elements)
+- tranform: translate(x,y) instead of position in some cases
+- attribute selector by putiing in []
+  can regex-is so [grid-*] gets all the grid-foo
+- min(), max(), and clamp()
+- min & max take 2 values and use the min or max, so you can mix units (905, 1000px)
+- clamp (often used for font) is bounded between min and max
+
+  - line-height
+    use a button when it's clickable, not a div
+  - minmax() - prevent overflow in grid
+  - (grid-template-columns: repeat(autofit, minmax(500, 1fr))) -> grid-template-columns: repeat(autofit, minmax(min(500, 100%), 1fr))
+  - grid-auto-flow
+  - grid-auto-columns
+  - place-items
+  - grid-colum and grid-row as 1/2 stacks things?
+  - @media
+  - flex-grow: 1 (row is 100% wide )
+  - flex-basis: x% (widht of cells)
+  - writing-mode - flip text
+  - gap - automa rgining - work sin flex, grid?
+  - scroll-behavior: smooth (set ti in html and links to anchors will scroll)
+  - overflow-x: get you a scroll bar
+  - scroll-snap-align: xor y, mandatory (or proximity) makes scrolling snap then set scroll-snap-type as center or similar on the scrolle dobject
+
+- overflow: auto + resize: both makes elements drag to make bigger, can dovertical or horizontal
+- display: webkit-box and other spex for a text preview (with overflow:hidden)
+- webkit-background-clip: text (clips the text), use webkit-text-fill-color: transparent to have it turn the letter sinto the background color/image, such as a gradient.
+- pointer-events: none makes something unslectable, which can eb useful for animation
+- @keyframes
+- animation
+- container queries vs media queries
+
+  - container-type: size or inline-size
+
+  #### sizes
+
+  - rem - root element of # of pixels for font size (usually 16 pixels) - it's base 16 so the math might be fiddly
+  - em - don't use unles syou know to? (withs) (size for the font in use, so bigger for an H1)
+  - ch (witdth of a characetr of the font, based on a 0, usefuyl to keep under 75 (which is high) or fewer characters per line])
+  - em or rem for padding/margin
+
+  font-size: rem
+  width: % in combination with a max-width, ch
+  height: question urself "do i rly need to set height" if yes -> use a min-height
+  padding/margin: rem or em, kevin often uses em for padding of buttons
+  media queries: em
+
+px only for little things like shadows, borders etc.
+-fr fraction, useful for even columns
+-vx
+
+## Resources
+
+✅ Frontend Mentor: https://www.frontendmentor.io
+✅ Style Stage: https://stylestage.dev
+✅ CSS Battle: https://cssbattle.dev/
+✅ CodeWars: https://www.codewars.com/
+✅ Frontend Practice: https://www.frontendpractice.com/
+✅ First Timers Only: https://www.firsttimersonly.com/
