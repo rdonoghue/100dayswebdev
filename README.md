@@ -17,6 +17,8 @@ Day 5:
 - 4th value in RGB() is transparency
 - Semantic elements are definitely a bit more fun than just naming a ton of divs but oh god dammit, youc an't just abritrarily create them. Looks like there's a fixed set of known ones that includes header, footer and main. What else?
 - Weird one - firefox didn't wan tot show the favicon until i put a ? at the end of the url. Dunno what's up with that.
+- li:first-of-type
+- li:nth-of-type(8)
 
 ### Subjects
 
@@ -100,11 +102,22 @@ px only for little things like shadows, borders etc.
 -fr fraction, useful for even columns
 -vx
 
+## Questions
+
+- should I have a branch for each machine just to avoid doing that little song and dance?
+
 ## Resources
 
-✅ Frontend Mentor: https://www.frontendmentor.io
-✅ Style Stage: https://stylestage.dev
-✅ CSS Battle: https://cssbattle.dev/
-✅ CodeWars: https://www.codewars.com/
-✅ Frontend Practice: https://www.frontendpractice.com/
-✅ First Timers Only: https://www.firsttimersonly.com/
+✅ [Frontend Mentor:](https://www.frontendmentor.io)
+✅ [Style Stage:](https://stylestage.dev)
+✅ [CSS Battle:](https://cssbattle.dev/)
+✅ [CodeWars:](https://www.codewars.com/)
+✅ [Frontend Practice:](https://www.frontendpractice.com/)
+✅ [First Timers Only:](https://www.firsttimersonly.com/)
+[More about the position property =>](https://academind.com/tutorials/the-position-property/)
+
+[Flexbox - Flex Container =>](https://academind.com/tutorials/flexbox-basics-container/)
+
+[Flexbox - Flex Items =>](https://academind.com/tutorials/flexbox-flex-items/)
+
+[Comparing Flexbox and the Grid =>](https://academind.com/tutorials/css-grid-vs-flexbox/)
