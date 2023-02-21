@@ -83,18 +83,18 @@ If vertical margins disagree, they don't stack, they default to the larger on.
 
   - container-type: size or inline-size
 
-  #### sizes
+#### sizes
 
-  - rem - root element of # of pixels for font size (usually 16 pixels) - it's base 16 so the math might be fiddly
-  - em - don't use unles syou know to? (withs) (size for the font in use, so bigger for an H1)
-  - ch (witdth of a characetr of the font, based on a 0, usefuyl to keep under 75 (which is high) or fewer characters per line])
-  - em or rem for padding/margin
+- rem - root element of # of pixels for font size (usually 16 pixels) - it's base 16 so the math might be fiddly
+- em - don't use unles syou know to? (withs) (size for the font in use, so bigger for an H1)
+- ch (witdth of a characetr of the font, based on a 0, usefuyl to keep under 75 (which is high) or fewer characters per line])
+- em or rem for padding/margin
 
-  font-size: rem
-  width: % in combination with a max-width, ch
-  height: question urself "do i rly need to set height" if yes -> use a min-height
-  padding/margin: rem or em, kevin often uses em for padding of buttons
-  media queries: em
+font-size: rem
+width: % in combination with a max-width, ch
+height: question urself "do i rly need to set height" if yes -> use a min-height
+padding/margin: rem or em, kevin often uses em for padding of buttons
+media queries: em
 
 px only for little things like shadows, borders etc.
 -fr fraction, useful for even columns
