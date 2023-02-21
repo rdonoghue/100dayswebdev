@@ -121,3 +121,5 @@ px only for little things like shadows, borders etc.
 [Flexbox - Flex Items =>](https://academind.com/tutorials/flexbox-flex-items/)
 
 [Comparing Flexbox and the Grid =>](https://academind.com/tutorials/css-grid-vs-flexbox/)
+[SVG icons](https://heroicons.dev)
+[more SVG icons](https://heroicons.com)
