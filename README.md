@@ -102,6 +102,8 @@ px only for little things like shadows, borders etc.
 -fr fraction, useful for even columns
 -vx
 
+-FORMS- GET (request content) vs POST (Submit content)
+
 ## Questions
 
 - should I have a branch for each machine just to avoid doing that little song and dance?

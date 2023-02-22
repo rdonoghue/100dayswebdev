@@ -1,0 +1,112 @@
+html {
+  --color-grey-100: rgb(236, 236, 236);
+  --color-grey-400: rgb(134, 134, 134);
+  --color-grey-600: rgb(58, 58, 58);
+  --color-grey-800: rgb(41, 41, 41);
+
+  background-color: var(--color-grey-600);
+  font-family: "Krub", serif;
+}
+
+main {
+  width: 90%;
+  margin: 4rem auto;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-grey-100);
+  padding: 2rem;
+}
+
+.content {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+form {
+  margin: 1rem auto;
+  border: 2px solid forestgreen;
+  width: 30rem;
+  padding: 1rem;
+}
+
+input,
+textarea,
+select {
+  width: 20rem;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0.25rem;
+  border: 1px solid --color-grey-100;
+  color: var(--color-grey-800);
+  border-radius: 3px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: lightblue;
+}
+
+.squish {
+  display: flex;
+}
+.squish input {
+  width: auto;
+  margin-right: 0.5rem;
+}
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+button {
+  /* all: unset;
+
+  background-color: lightblue;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+  display: flex; */
+  transition: 0.5s;
+  /* transition: background-color 0.5s; */
+  display: block;
+  width: 6rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: aqua;
+}
+
+.flowbox {
+  float: left;
+  margin: 1rem;
+}
+
+.flowbox:hover {
+  background-color: papayawhip;
+}
+
+img {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  transition: transform ease-in-out 1s;
+}
+
+img:hover {
+  transform: scale(2) rotate(360deg) translatex(10rem);
+}
+
+h1,
+h2 {
+  font-family: "Zilla Slab", serif;
+  color: var(--color-grey-400);
+}
+
+.icon {
+  border: 2px solid --color-grey-800;
+  height: 3rem;
+  width: 3rem;
+}

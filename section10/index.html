@@ -4,7 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600&family=Zilla+Slab:wght@400;600&display=swap"
+      rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>Forms</h1>
+      <form>
+<form action="/" method="POST">
+  <label for="getstring">A string</label>
+  <input type="text" name="random-text" id="getstring">
+  <input type="email" name="mailstring" id="getmail">
+  <input type="number" step="1" name="numstring" id="getnum">
+  <input type="password" name="pw" id="pw">
+  <input type="date">
+  <hr>
+  <div class="squish">
+  <Input type="radio" name="linked" id="foo"><label>foo</label>
+  </div><div class="squish">
+ <Input type="radio" name="linked" id="bar"><label>bar</label>
+ </div><div class="squish">
+<Input type="radio" name="linked" id="bass"><label>bass</label>
+</div>
+<hr>
+<div class="squish">
+  <input type="checkbox" name="terms" id="terms"><label>agree to something?</label>
+  </div>
+  <hr>
+  <p>group of checkboxes</p>
+  <div class="squish">
+    <input type="checkbox" name="moreterms" id="terms" value="x"><label>agree to something?</label>
+    </div>
+    <div class="squish">
+      <input type="checkbox" name="moreterms" id="terms" value="y"><label>agree to something?</label>
+      </div>
+      <p>can submit both and they'll both be in the variable</p>
+      <hr>
+    <input type="file">
+    <hr>
+    <textarea id="taid"></textarea>
+  <select name="theselect">
+    <option>Red</option value="red">
+    <option>Blue</option value="blue">
+    <option>Green</option value="green">
+    </select>
+
+  <button>Submit</button>
+</form>
+          </div>
+    </p>
+    </main>
+  </body>
 </html>
