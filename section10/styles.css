@@ -4,16 +4,26 @@ html {
   --color-grey-600: rgb(58, 58, 58);
   --color-grey-800: rgb(41, 41, 41);
 
-  background-color: var(--color-grey-600);
+  background-color: lightblue;
   font-family: "Krub", serif;
 }
 
 main {
-  width: 90%;
+  width: 36rem;
   margin: 4rem auto;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   background-color: var(--color-grey-100);
   padding: 2rem;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Krub", serif;
+  color: var(--color-grey-600);
 }
 
 .content {
@@ -23,7 +33,7 @@ main {
 
 form {
   margin: 1rem auto;
-  border: 2px solid forestgreen;
+  /* border: 2px solid forestgreen; */
   width: 30rem;
   padding: 1rem;
 }
@@ -31,14 +41,13 @@ form {
 input,
 textarea,
 select {
-  width: 20rem;
+  width: 30rem;
   display: block;
   margin-bottom: 1rem;
   box-sizing: border-box;
   font: inherit;
   padding: 0.25rem;
-  border: 1px solid --color-grey-100;
-  color: var(--color-grey-800);
+  border: 1px solid lightblue;
   border-radius: 3px;
 }
 
@@ -54,8 +63,12 @@ textarea:focus {
   width: auto;
   margin-right: 0.5rem;
 }
+
+.checkbox {
+  margin-top: 1rem;
+}
 label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   display: block;
 }
 button {
@@ -109,4 +122,8 @@ h2 {
   border: 2px solid --color-grey-800;
   height: 3rem;
   width: 3rem;
+}
+
+.buttons {
+  justify-content: right;
 }

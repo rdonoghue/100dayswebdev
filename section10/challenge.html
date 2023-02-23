@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600&family=Zilla+Slab:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Form Challenge</title>
+  </head>
+  <body>
+    <h1>Contact us</h1>
+    <main>
+      <h2>How Can We Help You?</h2>
+      <form action="/" method="POST">
+        <label for="getname">Your Name</label>
+        <input name="getname" type="text" required />
+        <label for="getemail">Your Email Address</label>
+        <input name="getemail" type="email" required />
+        <label for="getphone">Your Phone Number</label>
+        <input name="getphone" type="tel" />
+        <label for="message">Your Message</label>
+        <textarea name="getname" rows="5"></textarea>
+        <label for="findus">How did you find us?</label>
+        <select name="findus" type="text">
+          <option>Web</option>
+          <option>Friends</option>
+          <option>Dumb Luck</option>
+        </select>
+        <h2>How should we reply?</h2>
+<div class="squish">
+        <input name="getcontact" type="radio" id="a1" /><lable>Call Me</lable></div>
+        <div class="squish"><input name="getcontact" type="radio" id="b2" /><lable>Email</lable></div>
+        <div class="squish"><input name="getcontact" type="radio" id="ac3" /><lable>Don't Reply</lable></div>
+</div>
+    <div class="squish checkbox"><input name="acknowledge" type="checkbox"><label>Accept Terms</label></div>
+        <div class="squish buttons">
+          <button type="reset">Clear</button>
+          <button>Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

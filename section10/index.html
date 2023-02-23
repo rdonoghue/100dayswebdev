@@ -17,9 +17,10 @@
     <main>
       <h1>Forms</h1>
       <form>
+        <a href="challenge.html">challenge page</a>
 <form action="/" method="POST">
   <label for="getstring">A string</label>
-  <input type="text" name="random-text" id="getstring">
+  <input type="text" name="random-text" id="getstring" placeholder="Will be displayed but not taken" required>
   <input type="email" name="mailstring" id="getmail">
   <input type="number" step="1" name="numstring" id="getnum">
   <input type="password" name="pw" id="pw">
@@ -56,8 +57,23 @@
     </select>
 <button type="reset">Clear</button>
 
-Other types of validation:
 
+<p>Validation Attributes:<br>
+required (needs to be added to all radio buttons)<br>
+minlength=x<br>
+maxlength=x<br>
+min=x (minimum value, mostly numeric - dates can be YYYY-MM-DD)<br>
+max=x<br>
+
+</p>
+<h3>other attributes</h3>
+<ul>
+  <li>placeholder - in the field, but not as good as label for 
+  </li>
+  <li>rows - texarea heaight</li>
+</ul>
+Also, the <i>resize</i> css propoerty can be set to "none" to make the textarea non-resizable.
+</p>
 
   <button>Submit</button>
 </form>
