@@ -1,3 +1,5 @@
+"use strict";
+
 let outputWindow = document.getElementById("outputwindow");
 let outputHTML = "";
 
