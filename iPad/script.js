@@ -1,15 +1,16 @@
 let outputWindow = document.getElementById("outputwindow");
-let outputHtml;
+let outputHTML = "";
 
-outputHtml = "<p>This is a test</p>";
+outputHTML = addOutput("This is a second test");
+outputHTML = addOutput("and this");
 
-show(outputHtml);
+show(outputHTML);
 
 function show(output, destination = outputwindow) {
-  const outputBody = document.createElement("jsOutput");
-
   destination.innerHTML = output;
-  console.log(destination.innerHTML);
+}
 
-  console.log(output);
+function addOutput(outputString, outputBlock = outputHTML) {
+  outputBlock += "<p>" + outputString + "</p>";
+  return outputBlock;
 }

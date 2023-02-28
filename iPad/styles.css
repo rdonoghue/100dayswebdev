@@ -10,7 +10,7 @@ html {
   --color-grey-800: rgb(41, 41, 41);
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-body);
   margin: 0;
   background: linear-gradient(30deg, rgb(11, 11, 11), rgb(22, 22, 22));
   color: orange;
@@ -19,7 +19,6 @@ body {
 
 .display {
   border: 1px solid orange;
-  display: flex;
   height: min(40rem);
   width: min(40rem);
   color: white;
