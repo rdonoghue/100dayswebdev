@@ -104,6 +104,9 @@ px only for little things like shadows, borders etc.
 
 -FORMS- GET (request content) vs POST (Submit content)
 
+- oh, hey, document.querySelector uses the same syntax as css, so it can get classes with a . (.classname) or IDs with # (#idname)
+- normally this gets the first match. querySelectorAll gets all of them.
+
 ## Questions
 
 - should I have a branch for each machine just to avoid doing that little song and dance?
