@@ -66,10 +66,13 @@ function resetBoxes() {
   message.innerHTML = "It's your turn <b>" + player1 + "</b>!";
   player1Name.innerText = player1;
   player2Name.innerText = player2;
+  currentTurn = "x";
 }
 
 function changeTurn(xo) {
   currentTurn = xo;
+  let turnMessage = "It's your turn, " + xo.toUpperCase() + "!";
+  messageBox.innerHTML = turnMessage;
 }
 
 function checkWinner() {
@@ -80,9 +83,9 @@ function checkWinner() {
     tttBoard[0][0] + tttBoard[0][1] + tttBoard[0][2] == 3 ||
     tttBoard[1][0] + tttBoard[1][1] + tttBoard[1][2] == 3 ||
     tttBoard[2][0] + tttBoard[2][1] + tttBoard[2][2] == 3 ||
-    tttBoard[0][0] + tttBoard[0][1] + tttBoard[0][2] == 3 ||
-    tttBoard[1][0] + tttBoard[1][1] + tttBoard[1][2] == 3 ||
-    tttBoard[2][0] + tttBoard[2][1] + tttBoard[2][2] == 3 ||
+    tttBoard[0][0] + tttBoard[1][0] + tttBoard[2][0] == 3 ||
+    tttBoard[0][1] + tttBoard[1][1] + tttBoard[2][1] == 3 ||
+    tttBoard[0][2] + tttBoard[1][2] + tttBoard[2][2] == 3 ||
     tttBoard[0][0] + tttBoard[1][1] + tttBoard[2][2] == 3 ||
     tttBoard[0][2] + tttBoard[1][1] + tttBoard[2][0] == 3
   ) {
@@ -91,9 +94,9 @@ function checkWinner() {
     tttBoard[0][0] + tttBoard[0][1] + tttBoard[0][2] == -3 ||
     tttBoard[1][0] + tttBoard[1][1] + tttBoard[1][2] == -3 ||
     tttBoard[2][0] + tttBoard[2][1] + tttBoard[2][2] == -3 ||
-    tttBoard[0][0] + tttBoard[0][1] + tttBoard[0][2] == -3 ||
-    tttBoard[1][0] + tttBoard[1][1] + tttBoard[1][2] == -3 ||
-    tttBoard[2][0] + tttBoard[2][1] + tttBoard[2][2] == -3 ||
+    tttBoard[0][0] + tttBoard[1][0] + tttBoard[2][0] == -3 ||
+    tttBoard[0][1] + tttBoard[1][1] + tttBoard[2][1] == -3 ||
+    tttBoard[0][2] + tttBoard[1][2] + tttBoard[2][2] == -3 ||
     tttBoard[0][0] + tttBoard[1][1] + tttBoard[2][2] == -3 ||
     tttBoard[0][2] + tttBoard[1][1] + tttBoard[2][0] == -3
   ) {
