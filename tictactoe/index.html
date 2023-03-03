@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Open+Sans&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header id="top"></header>
+    <main>
+      <div class="players">
+        <div class="playerbox" id="player1">
+          <p>Player 1</p>
+          <h2 id="p1">Name1</h2>
+          <p class="large">X</p>
+          <a href="#modal">Edit</a>
+        </div>
+        <div class="playerbox" id="player2">
+          <p>Player 2</p>
+          <h2 id="p2">Name2</h2>
+          <p class="large">0</p>
+          <a href="#modal2">Edit</a>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="restart">Start a new game</button>
+      </div>
+      <div class="playspace">
+        <p id="message">It's your turn <b>Name1</b>!</p>
+        <div id="gameboard">
+          <div class="ttsquare empty" id="nw"></div>
+          <div class="ttsquare empty" id="nn"></div>
+          <div class="ttsquare empty" id="ne"></div>
+          <div class="ttsquare empty" id="ww"></div>
+          <div class="ttsquare x" id="cc">X</div>
+          <div class="ttsquare o" id="ee">O</div>
+          <div class="ttsquare x" id="sw">X</div>
+          <div class="ttsquare o" id="ss">O</div>
+          <div class="ttsquare empty" id="se"></div>
+        </div>
+      </div>
+    </main>
+    <div id="modal">
+      <div class="modalform">
+        <form action="" method="get" id="entername">
+          <p>Enter Your Name</p>
+          <div>
+            <input
+              id="submitname"
+              type="text"
+              size="30"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div><button type="submit">Submit</button></div>
+          <div class="closex"><a href="#top">X</a></div>
+        </form>
+      </div>
+    </div>
+
+    <div id="modal2">
+      <div class="modalform">
+        <form action="" method="get" id="entername2">
+          <p>Enter Your Name</p>
+          <div>
+            <input
+              id="submitname2"
+              type="text"
+              size="30"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div><button type="submit">Submit</button></div>
+          <div class="closex"><a href="#top">X</a></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
