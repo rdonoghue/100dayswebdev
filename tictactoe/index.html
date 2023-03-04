@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Open+Sans&family=Oswald&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="styles.css" rel="stylesheet" />
-    <script src="script.js" defer></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/modal.css" rel="stylesheet" />
+    <link href="styles/gameplay.css" rel="stylesheet" />
+
+    <script src="scripts/userinfo.js" defer></script>
+    <script src="scripts/gameplay.js" defer></script>
+    <script src="scripts/script.js" defer></script>
 
     <title>Tic Tac Toe</title>
   </head>
@@ -20,69 +28,53 @@
           <p>Player 1</p>
           <h2 id="p1">Name1</h2>
           <p class="large">X</p>
-          <a href="#modal">Edit</a>
+          <button class="btn2" id="editPlayerOne">Edit</button>
         </div>
         <div class="playerbox" id="player2">
           <p>Player 2</p>
           <h2 id="p2">Name2</h2>
           <p class="large">0</p>
-          <a href="#modal2">Edit</a>
+          <button class="btn2" id="editPlayerTwo">Edit</button>
         </div>
       </div>
       <div class="controls">
         <button id="restart">Start a new game</button>
       </div>
       <div class="playspace">
-        <p id="message">It's your turn <b>X</b>!</p>
-        <div id="gameboard">
-          <div class="ttsquare empty" id="nw"></div>
-          <div class="ttsquare empty" id="nn"></div>
-          <div class="ttsquare empty" id="ne"></div>
-          <div class="ttsquare empty" id="ww"></div>
-          <div class="ttsquare x" id="cc">X</div>
-          <div class="ttsquare o" id="ee">O</div>
-          <div class="ttsquare x" id="sw">X</div>
-          <div class="ttsquare o" id="ss">O</div>
-          <div class="ttsquare empty" id="se"></div>
-        </div>
+        <p id="message">
+          It's your turn <b><span id="currentPlayer">Player One</span></b
+          >!
+        </p>
+        <ol id="gameboard">
+          <li class="ttsquare empty" id="nw">X</li>
+          <li class="ttsquare empty" id="nn"></li>
+          <li class="ttsquare empty" id="ne">O</li>
+
+          <li class="ttsquare empty" id="ww"></li>
+          <li class="ttsquare empty" id="cc">X</li>
+          <li class="ttsquare empty" id="ee"></li>
+
+          <li class="ttsquare empty" id="sw">O</li>
+          <li class="ttsquare empty" id="ss"></li>
+          <li class="ttsquare empty" id="se"></li>
+        </ol>
       </div>
     </main>
-    <div id="modal">
-      <div class="modalform">
-        <form action="" method="get" id="entername">
-          <p>Enter Your Name</p>
+    <aside>
+      <div id="modalform" class="modalform">
+        <form action="" method="POST" id="entername">
+          <label for="submitname">Enter Your Name</lable>
           <div>
-            <input
-              id="submitname"
-              type="text"
-              size="30"
-              maxlength="30"
-              required
-            />
+            <input id="submitname" name="submitname" type="text" size="30" maxlength="30" required />
           </div>
-          <div><button type="submit">Submit</button></div>
-          <div class="closex"><a href="#top">X</a></div>
-        </form>
-      </div>
-    </div>
+          <div id="formMessage">Please enter a valid name.</div>
 
-    <div id="modal2">
-      <div class="modalform">
-        <form action="" method="get" id="entername2">
-          <p>Enter Your Name</p>
-          <div>
-            <input
-              id="submitname2"
-              type="text"
-              size="30"
-              maxlength="30"
-              required
-            />
-          </div>
-          <div><button type="submit">Submit</button></div>
+          <div><button type="submit">Submit</button><button type="reset" id="resetButton">Cancel</button></div>
           <div class="closex"><a href="#top">X</a></div>
+
         </form>
       </div>
-    </div>
+    </aside>
+    <div id="overlay"></div>
   </body>
 </html>
