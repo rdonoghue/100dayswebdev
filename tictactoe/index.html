@@ -27,51 +27,75 @@
         <div class="playerbox" id="player1">
           <p>Player 1</p>
           <h2 id="p1">Name1</h2>
-          <p class="large">X</p>
-          <button class="btn2" id="editPlayerOne">Edit</button>
+          <p class="large" id="player1Symbol">X</p>
+          <button class="btn2" id="editPlayerOne" data-playerid="1">
+            Edit
+          </button>
         </div>
         <div class="playerbox" id="player2">
           <p>Player 2</p>
           <h2 id="p2">Name2</h2>
-          <p class="large">0</p>
-          <button class="btn2" id="editPlayerTwo">Edit</button>
+          <p class="large" id="player2Symbol">O</p>
+          <button class="btn2" id="editPlayerTwo" data-playerid="2">
+            Edit
+          </button>
         </div>
       </div>
       <div class="controls">
         <button id="restart">Start a new game</button>
       </div>
-      <div class="playspace">
-        <p id="message">
-          It's your turn <b><span id="currentPlayer">Player One</span></b
-          >!
-        </p>
-        <ol id="gameboard">
-          <li class="ttsquare empty" id="nw">X</li>
-          <li class="ttsquare empty" id="nn"></li>
-          <li class="ttsquare empty" id="ne">O</li>
+      <div id="playSpace" class="playspace hidden">
+        <div id="playmessage" class="message turn">
+          <p>
+            It's your turn <b><span id="currentPlayer">Player One</span></b
+            >!
+          </p>
+        </div>
+        <div id="winmessage" class="message winner hidden">
+          <p><span id="winnerName">WinnerName</span> Wins!</p>
+        </div>
 
-          <li class="ttsquare empty" id="ww"></li>
-          <li class="ttsquare empty" id="cc">X</li>
-          <li class="ttsquare empty" id="ee"></li>
+        <div id="tiemessage" class="message tie">
+          <p>Nobody Wins!</p>
+        </div>
+        <ol id="gameboard" class="hidden">
+          <li class="ttsquare empty th lv d1" id="nw" data-num="0">X</li>
+          <li class="ttsquare empty th cv" id="nn" data-num="1"></li>
+          <li class="ttsquare filled th rv d2" id="ne" data-num="2">O</li>
 
-          <li class="ttsquare empty" id="sw">O</li>
-          <li class="ttsquare empty" id="ss"></li>
-          <li class="ttsquare empty" id="se"></li>
+          <li class="ttsquare empty lv mh" id="ww" data-num="3"></li>
+          <li class="ttsquare filled cv mh d1 d2" id="cc" data-num="4">X</li>
+          <li class="ttsquare empty rv mh" id="ee" data-num="5"></li>
+
+          <li class="ttsquare filled lv bh d2" id="sw" data-num="6">O</li>
+          <li class="ttsquare empty bh cv" id="ss" data-num="7"></li>
+          <li class="ttsquare empty rv bh d1" id="se" data-num="8"></li>
         </ol>
       </div>
     </main>
     <aside>
       <div id="modalform" class="modalform">
         <form action="" method="POST" id="entername">
-          <label for="submitname">Enter Your Name</lable>
+          <label for="submitname"
+            ><span id="typingPlayer"></span>Please Enter Your Name</label
+          >
           <div>
-            <input id="submitname" name="submitname" type="text" size="30" maxlength="30" required />
+            <input
+              id="submitname"
+              name="submitname"
+              type="text"
+              size="30"
+              maxlength="30"
+              required
+            />
           </div>
           <div id="formMessage">Please enter a valid name.</div>
 
-          <div><button type="submit">Submit</button><button type="reset" id="resetButton">Cancel</button></div>
-          <div class="closex"><a href="#top">X</a></div>
-
+          <div>
+            <button type="submit">Submit</button
+            ><button type="reset" id="resetButton">Cancel</button>
+          </div>
+          <div class="closex">X</div>
         </form>
       </div>
     </aside>
