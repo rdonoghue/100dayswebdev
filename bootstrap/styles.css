@@ -1,0 +1,74 @@
+html {
+  --font-body: "Nanum Myeongjo", serif;
+  --font-header: "Oswald", sans-serif;
+  --font-button: "Jost", sans-serif;
+  --text-color: rgb(245, 245, 245);
+  --accent-color: rgb(242, 201, 126);
+  --color-grey-100: rgb(236, 236, 236);
+  --color-grey-400: rgb(134, 134, 134);
+  --color-grey-600: rgb(58, 58, 58);
+  --color-grey-800: rgb(41, 41, 41);
+}
+
+section {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  max-width: 50rem;
+  height: 30rem;
+  margin: 0 auto;
+  object-fit: cover;
+}
+#carouselExample {
+  width: 100%;
+  max-width: 50rem;
+  height: 30rem;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#carouselExample img {
+  height: 30rem;
+  object-fit: scale-down;
+}
+
+.formholder {
+  display: block;
+  width: 100%;
+  max-width: 50rem;
+  margin: 10rem auto;
+}
+
+/* .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+} */
+/* body {
+  font-family: var(--font-body);
+  margin: 0;
+  background: linear-gradient(30deg, rgb(11, 11, 11), rgb(22, 22, 22));
+  color: orange;
+  height: min(1vh);
+}
+
+.display {
+  border: 1px solid orange;
+  height: min(40rem);
+  width: min(40rem);
+  color: white;
+  padding: 1rem;
+}
+
+h1 {
+  color: var(--accent-color);
+  font-family: var(--font-header);
+}
+
+h2 {
+  color: var(--accent-color);
+  font-family: var(--font-header);
+} */
