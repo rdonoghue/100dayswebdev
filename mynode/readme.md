@@ -422,6 +422,7 @@ Yep, so, includes are snippet .ejs files kept in the views folder (ideally in a 
 ```
 
 (The curly brackets are in case you need to pass information, like maybe the active page)
+
 ## New package
 
 npm install uuid
