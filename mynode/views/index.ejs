@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Nanum+Myeongjo:wght@400;700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <!-- <script src="script.js" defer></script> -->
+
+    <title>Hello Node</title>
+  </head>
+  <body>
+    <h1>Hello Node</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum
+      laboriosam debitis porro in hic velit quam ut temporibus, rerum sint
+      dicta, placeat beatae odio? Molestiae iste quia fuga perspiciatis!
+    </p>
+    <p><%- messageText %></p>
+    <ul>
+      <% colorData.forEach(function(colorEntry){ %> <% const
+      <li color="<%- colorEntry.value %>>"><%- colorEntry.color %></li>
+      <% }); %>
+    </ul>
+  </body>
+
+  <script>
+    let localMessage = "This is just a string";
+    console.log(localMessage);
+    // console.log(messageText);
+  </script>
+</html>
