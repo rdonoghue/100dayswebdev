@@ -1,1 +1,50 @@
-[{"name":"Nicos","address":"111 Park Ave","cuisine":"Greek","website":"https://www.nikos.com","description":"Because I have to put in something."},{"name":"Franks","address":"333 Mark","cuisine":"Sandwiches","website":"https://foo.bar","description":"Bribery"},{"name":"Lucky Number 3","address":"3 Third st","cuisine":"Molecular","website":"https://this.is.pain","description":"To get a third entry"},{"name":"McDonald's","address":"777 8th Street","cuisine":"American","website":"https://www.mcdonalds.com","description":"Just to add one more to the thingamjigger"}]
+[
+  {
+    "id": "r1",
+    "name": "Nicos",
+    "address": "111 Park Ave",
+    "cuisine": "Greek",
+    "website": "https://www.nikos.com",
+    "description": "Because I have to put in something."
+  },
+  {
+    "id": "r2",
+    "name": "Franks",
+    "address": "333 Mark",
+    "cuisine": "Sandwiches",
+    "website": "https://foo.bar",
+    "description": "Bribery"
+  },
+  {
+    "id": "r3",
+    "name": "Lucky Number 3",
+    "address": "3 Third st",
+    "cuisine": "Molecular",
+    "website": "https://this.is.pain",
+    "description": "To get a third entry"
+  },
+  {
+    "id": "r4",
+    "name": "McDonald's",
+    "address": "777 8th Street",
+    "cuisine": "American",
+    "website": "https://www.mcdonalds.com",
+    "description": "Just to add one more to the thingamjigger"
+  },
+  {
+    "name": "FancyPants",
+    "address": "100, Paris",
+    "cuisine": "French",
+    "website": "https://222.foo.bar",
+    "description": "No good reason, just want to see the uuid",
+    "id": "78a0e208-dff6-42b5-905b-a6aa7a4d7cd7"
+  },
+  {
+    "name": "Tester",
+    "address": "123 test",
+    "cuisine": "Experimental",
+    "website": "https://222.foo.bar",
+    "description": "I am pretty sure I'm about to break this",
+    "id": "467562ca-ecdf-4e07-b858-d84dfc4c5f64"
+  }
+]

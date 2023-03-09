@@ -6,11 +6,11 @@
   </head>
   <body>
     <%- include("includes/header", {}) %> <%- include("includes/aside", {}) %>
-       <main>
-        <h1>Name of Restaurant <%= rid %></h1>
-        <p>CUISINE | Address</p>
-        <p>DESCRIPTION</p>
-        <a href="">Visit Website</a>
- </main>
+    <main>
+      <h1><%= restaurantDetails.name %></h1>
+      <p><%= restaurantDetails.cuisine %> | <%= restaurantDetails.address %></p>
+      <p><%= restaurantDetails.description %></p>
+      <a href="<%= restaurantDetails.website %>">Visit Website</a>
+    </main>
   </body>
 </html>

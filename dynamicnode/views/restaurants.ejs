@@ -9,19 +9,21 @@
 
     <main>
       <% if (numberofRestaurants === 0) { %>
-        <p>Fail Whale</p>
-        <% } else { %>
-        <h1>Recommended restaurants</h1>
-        <p>Find your next favorite restaurants with help of our other users!</p>
-        <p>We've found <%= numberofRestaurants %> restaurants!</p>
-        
-        <ul id="restaurants-list">
-          <% for (const restaurant of restaurants) { %>
-            <%- include("includes/restaurants/restaurantitem", {restaurant}) %>
-          <% } %>
-        
-          
-        </ul>
-        <% } %></main>
+      <p>Fail Whale</p>
+      <% } else { %>
+      <h1>Recommended restaurants</h1>
+      <p>Find your next favorite restaurants with help of our other users!</p>
+      <p>We've found <%= numberofRestaurants %> restaurants!</p>
+      <form action="/restaurants" method="GET">
+        <input type="hidden" value="<%= buttonOrder %>" name="order" />
+        <button class="btn">Change Order</button
+        ><span class="arrow"><%- arrow %></span>
+      </form>
+      <ul id="restaurants-list">
+        <% for (const restaurant of restaurants) { %> <%-
+        include("includes/restaurants/restaurantitem", {restaurant}) %> <% } %>
+      </ul>
+      <% } %>
+    </main>
   </body>
 </html>

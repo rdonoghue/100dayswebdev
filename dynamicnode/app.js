@@ -1,77 +1,32 @@
 "use strict";
 // Boilerplate
-const fs = require("fs");
+const testFlag = true;
 const path = require("path");
 const express = require("express");
 const app = express();
+
+const defaultRoutes = require("./routes/default");
+const restaurantRoutes = require("./routes/restaurants");
+const tester = require("./util/tester.js");
+
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static("public")); //pointer to any static filenames
 
-// View/route handling
+app.use("/", defaultRoutes);
+app.use("/", restaurantRoutes);
 
-app.get("/", function (req, res) {
-  res.render("index");
-  //   const HTMLFilePath = path.join(__dirname, "views", "index.html");
-  //   res.sendFile(HTMLFilePath);
+//catches all requests that haven't been picked up.
+// 404 errors
+app.use(function (req, res) {
+  res.status(404).render("404");
 });
 
-app.get("/index", function (req, res) {
-  res.render("index");
-  //   const HTMLFilePath = path.join(__dirname, "views", "index.html");
-  //   res.sendFile(HTMLFilePath);
-});
-
-app.get("/restaurants", function (req, res) {
-  const dataFilePath = path.join(__dirname, "data", "restaurants.json");
-  const fileData = fs.readFileSync(dataFilePath);
-  const restaurantData = JSON.parse(fileData);
-  res.render("restaurants", {
-    numberofRestaurants: restaurantData.length,
-    restaurants: restaurantData,
-  });
-});
-
-app.get("/restaurants/:id", function (req,res){
-  // id is availabler in this function so we need to have that ID in the data
-  const restaurantId = req.params.id;
-  res.render('restaurant-detail', {
-    rid: restaurantId
-  });
-
-});
-
-
-
-app.get("/about", function (req, res) {
-  res.render("about");
-  //   const HTMLFilePath = path.join(__dirname, "views", "about.html");
-  //   res.sendFile(HTMLFilePath);
-});
-
-app.get("/confirm", function (req, res) {
-  res.render("confirm");
-  //   const HTMLFilePath = path.join(__dirname, "views", "confirm.html");
-  //   res.sendFile(HTMLFilePath);
-});
-
-app.get("/recommend", function (req, res) {
-  res.render("recommend");
-  //   const HTMLFilePath = path.join(__dirname, "views", "recommend.html");
-  //   res.sendFile(HTMLFilePath);
-});
-
-app.post("/recommend", function (req, res) {
-  const restaurant = req.body;
-  const dataFilePath = path.join(__dirname, "data", "restaurants.json");
-  const fileData = fs.readFileSync(dataFilePath);
-  const restaurantData = JSON.parse(fileData);
-  restaurantData.push(restaurant);
-  fs.writeFileSync(dataFilePath, JSON.stringify(restaurantData));
-
-  res.redirect("/confirm");
+app.use(function (error, req, res, next) {
+  res.status(500).render("500");
 });
 
 // kick off
 app.listen(3000);
+tester.test(1);
