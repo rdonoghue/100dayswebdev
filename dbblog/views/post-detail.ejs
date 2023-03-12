@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head', { title: 'Post title' }) %>
+    <link rel="stylesheet" href="/styles/posts.css" />
+  </head>
+
+  <body>
+    <%- include('includes/header') %>
+    <main id="post-detail">
+      <% console.log(postDetails); %> <% console.log(postDetails.title); %>
+
+      <h1><%= postDetails.title %></h1>
+      <section id="post-meta">
+        <p><%= postDetails.summary %></p>
+        <p><%= postDetails.name %></p>
+        <p><%= postDetails.date %></p>
+      </section>
+      <hr />
+      <section>
+        <p id="body"><%= postDetails.body %></p>
+      </section>
+    </main>
+  </body>
+</html>

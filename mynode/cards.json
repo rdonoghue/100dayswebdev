@@ -1,0 +1,194 @@
+{
+  "oberon": {
+    "type": "parent",
+    "category": "oberon-category",
+    "cardname": "Oberon",
+    "url": "../img/oberon.png",
+    "tagline": "The King",
+    "blurb": "<p>King of Amber. Creator of the Pattern. Conqueror of all reality. Sitting upon a great throne with a greater crown wrought of silver with seven high points, studded with emeralds, and huge rubies at either temple. The jewel of judgment rests upon his chest, supported around broad shoulders by a thick golden chain.</p><p>Father.</p><p>  Oberon as a father is open to many interpretations and possibilities. Oberon is a distant father. Oberon is a loving father. Oberon is a manipulator. Oberon is a teacher. Any, all, or none of these may be true. Oberon is complicated.</p><p>  What can be said about Oberon without interpretation is that those not of royal blood within the court of Amber are terrified of him. He was ruthless enough to win wars that the subjugated are still trying to understand how they could have possibly lost. He was powerful enough to slay demons, ancient dragons, and self- proclaimed gods on the fields of battle.</p>"
+  },
+  "velka": {
+    "type": "parent",
+    "category": "velka-category",
+    "cardname": "Velka",
+    "url": "../img/velka.png",
+    "tagline": "Memory",
+    "blurb": "<p>The children of Velka are older than recorded history. Even in the stasis of Amber, only weather-worn statues are any reminder of the first queen of the one true world. Two of her children died - the nameless bastard from a supposed affair who grew to be worshiped as a god of war, and Prince Anderon. The Anderon Hall district of Amber is named in his honor. Two of Velka’s surviving children, Lorec and Aurielle, have been Oberon’s representatives overseeing the surrender of the Abyssal Reach. They have only recently returned to take their place within the court.</p>"
+  },
+  "fina": {
+    "type": "parent",
+    "category": "fina-category",
+    "cardname": "Fina",
+    "url": "../img/fina.png",
+    "tagline": "Dreams",
+    "blurb": "<p>Literal portraits of expectation, the children of Fina were crafted from canvas to address the failings of the prior generation. While flesh and blood, they are still tied to their portraits within the great gallery of Amber. The gallery is, outside of the great Pattern within Kolvir, the most heavily guarded area of the palace as a result. Only one portrait has ever been known to be destroyed, resulting in someone’s death - that of Fina herself, destroyed by Oberon. Three portraits of children between Fina and Oberon were created; Suil Leir is the oldest, with Fenella and Roichard created shortly before Fina’s death. The rumor of a fourth portrait being stolen after Fina’s death are just rumors, of course.</p><p>As a child of Fina, reality and shadow are as thin and malleable as a piece of paper. They are master creators and artists, pulling items from thin air or otherwise creating through canvas, song, and the written word.</p>"
+  },
+  "milesia": {
+    "type": "parent",
+    "category": "milesia-category",
+    "cardname": "Milesia",
+    "url": "../img/milesia.png",
+    "tagline": "Chaos",
+    "blurb": "<p>A heritage born from the Void at the end of shadow known as the Lasair Caite, Milesia’s children were raised to know both the power of the Amber and the lightless magic of the Outlands. Milesia’s betrayal of her homeland aided greatly in Amber’s conquest of such a distant foe, and the end of Amber’s campaigns seemed imminent. There is a court rumbling, though, that betrayal breeds betrayal, as Milesia was murdered by her oldest daughter Ophelia. The flame of Chaos was born from Milesia’s death, and another era of war against Amber began.</p>"
+  },
+  "eirashaol": {
+    "type": "parent",
+    "category": "eirashaol-category",
+    "cardname": "Eira Shaol",
+    "url": "../img/eirashaol.png",
+    "tagline": "The Queen",
+    "blurb": "<p>Queen of Rebma as long as there has been a Rebma, Eira Shaol is an ancient influence upon Amber and the shadow seas. Her greatest efforts have been upon ensuring stability for the underwater kingdom, given that the Chaos of the above land is inevitably reflected upon her kingdom. As a result, Rebma routinely intervenes on Amber’s behalf to prevent the results of endless conflict from reaching her sands. Eira’s marriage to Oberon was the result of a negotiated partnership with the threat the flame of Chaos posed Amber through the Red Rebellion.</p><p>The children of Eira Shaol have blood claims to both the thrones of Amber and Rebma. This, along with Eira Shaol still being married to Oberon, has led to a unique amount of attention being provided the children in their relatively short lives.</p><p>While the queen is technically protected by the Crows, she also has a loyal personal guard lead by the The Kahlverian.</p>"
+  },
+  "unknown": {
+    "type": "parent",
+    "category": "unknown-category",
+    "cardname": "Unknown",
+    "url": "../img/unknown-web.png",
+    "tagline": "The Illegitimate",
+    "blurb": "Oberon's byblows."
+  },
+  "dworkin": {
+    "type": "parent",
+    "category": "dworkin-category",
+    "cardname": "Dworkin",
+    "url": "../img/dworkin.png",
+    "tagline": "Vision",
+    "blurb": "<p>Formerly the royal court sorcerer, the hunchback Dworkin ceded the role in recent years to Princess Ciara . Becoming more elusive as a result, the old dwarf tends to operate by sending trusted servants and proxies. That Dworkin is classified as a faction and not as a courtier is because he tends to be heavily involved in assigning seemingly mundane and obtuse tasks to other powers and factions, who are eager to do the reclusive figure a favor.<p></p>Dworkin's representatives, beyond engaging with those in the court, are often seen running a mix of errands in the cities of Amber and the Golden Circle. Wearing traditional red cloaks with the Unicorn embroidered in gold, Dworkin's proxies also run an art gallery in the lower city dedicated to Dworkin's psychedelic paintings and the Masters brand of oils that Dworkin creates and sells.</p>"
+  },
+  "anderon": {
+    "cardname": "Anderon",
+    "type": "child",
+    "url": "../img/anderon.png",
+    "parent": "velka-category",
+    "tagline": "The Fallen",
+    "blurb": "<p>Anderon is more of a historical figure than a family member. His life so long ago that Aurielle and Lorec only remember what they intentionally wrote or stored away, the prince was known to be vital in defeating his brother the Bastard and Velka. It is said that the district of Amber now known as Anderon Hall is so named because that is where the prince died. Lorec suggests that Anderon Hall is a mispronunciation and that the area was originally known as Anderon’s Fall before Oberon grew impatient with the label.</p><p>While the history books are vague beyond the expected platitudes, a week out of every year is dedicated to Anderon’s sacrifice for Amber. Festivals, parades, and a grand tournament with melee, jousting and other martial competitions are held by the Crown during this time.</p>"
+  },
+  "lorec": {
+    "cardname": "Lorec",
+    "type": "child",
+    "url": "../img/lorec.png",
+    "parent": "velka-category",
+    "tagline": "War",
+    "blurb": "<p>The prince appears noticeably older than even his sister from Velka, and is rarely seen without orders or reins in hand. Lorec has been a war horse for Oberon, though the rest of the family has debated as to the fanatic tendencies that he pursues to stay perpetually in conflict. If one asks Lorec, he states that the defense of Amber is all.</p><p>While Lorec is far from hostile to the family, his distance with others has only grown through each war - his friendship and closeness with Fenella is the one time when others might capture a glimpse of who Lorec once was. Lorec is loyal to a fault when it comes to the family, though. He is just not the cheeriest one.</p><p>Lorec’s absence at court is profound, but not unexpected.</p>"
+  },
+  "aurielle": {
+    "cardname": "Aurielle",
+    "type": "child",
+    "url": "../img/aurielle.png",
+    "parent": "velka-category",
+    "tagline": "Hunt",
+    "blurb": "<p>Aurielle is the founder of the Wardens of Arden and the most comfortable within the immense forest. With the ancient griffin Rosenwyn, last of her kind, the Princess is the shield against the horrors of the shadows entering through Amber by land. This duty and a love of the outdoors serve as a lodestone for the Princess - unlike her brother Lorec, Aurielle embraces the loss of memory her line faces. She knows who she is, she knows she loves her family, and that is enough.</p><p>Aurielle has been part of every conflict Amber has engaged in, and is a naturally fluent warrior as a result. Rarely leaving for the shadows, Arden and Amber serve as an endless supply of hunts, nature conservancy and finding one’s self.</p><p>Within court Aurielle is the Master of the Hunt, a title handled with no small amount of pleasure. The Princess’ relationship with Lorec is strained to the point of antagonism over moral differences. At the opposite end of the spectrum, she has taken a strong liking to Paoul, who she sees as a good person to be protected from the corrupting influences of the monarchs. </p>"
+  },
+  "suillir": {
+    "cardname": "Suil Lir",
+    "type": "child",
+    "url": "../img/suillir.png",
+    "parent": "fina-category",
+    "tagline": "Night",
+    "blurb": "<p>Suil Leir is the Night Warden of Arden. A title made up largely by Aurielle to acknowledge Suil Leir’s nocturnal tendencies, the Prince operates a force overlooking the valley of Garnath and the Oisen river from a makeshift fort, the prior fortifications flattened during the Red Rebellion and still under reconstruction. Suil Leir truly is the owl to Aurielle’s hawk.</p><p>Of course, Suil Leir’s love of the night truly has to come from the grand paintings he creates from his camps when he isn’t hunting or patrolling around Amber. These portraits are invariably of great hunts and conflicts that Suil Leir has taken part in, or more troubling, will take part in. These paintings are said to be a large compliment to the Prince’s gifts as a natural hunter.</p>"
+  },
+  "fenella": {
+    "cardname": "Fenella",
+    "type": "child",
+    "url": "../img/fenella.png",
+    "parent": "fina-category",
+    "tagline": "Artist",
+    "blurb": "<p>Princess Fenella embraces both Fina’s love of the arts and Oberon’s almost legendary temper. From an early age the Princess has taken to the sea, forging a lifelong friendship with Lorec during her service in the north fleet and eventually growing to be Lord Admiral in Amber’s navy. Fenella’s crowning military achievement was aiding Rebma in the defeat of the Chaos Leviathans during the Red Rebellion while Amber city held off Ophelia’s siege.</p><p>More recently, and more controversial, Fenella had a brief engagement to pirate king Volund of Minos before she broke off both the arrangement and Volund’s neck. Fenella’s absence during the Twin Uprisings was due to having to deal with the famed fleets of Minos in a series of skirmishes until a new pirate king could replace Volund. This resulted in the crown of Amber stripping Fenella of being Lord Admiral, seeking to prevent a more prolonged conflict.</p><p>Fenella currently serves as the royal court artist.</p>"
+  },
+  "roichard": {
+    "cardname": "Roichard",
+    "type": "child",
+    "url": "../img/roichard.png",
+    "parent": "fina-category",
+    "tagline": "Creation",
+    "blurb": "<p>Roichard claims he came into this world with a wrench in one hand and a brush in the other - given the rumors of how he was created by Fina and Oberon, some may even believe the Prince. Fascinated by mechanisms as long as he can remember, Roichard has adopted the Golden Circle shadow of Begma as a second home, and owns a large estate in the city state of Dinalo. Loud and boisterous, Roichard is possibly responsible for more explosions in Amber than anyone else as a result of efforts to get technology working.</p><p>  Roichard has no official title in Amber beyond Prince of Amber,but is known for are the varying war machines he has constructed in the shadows for Amber’s conquests and defenses. Recently, Roichard has gotten the first successful trans-shadow railway between Begma and Montevalno running (somewhat) reliably.</p><p>With the onset of peace, Roichard comes to court when summoned but otherwise paints his next great mechanism, contraption, or dream. Bevin is often a partner in the great Begman workshop Roichard operates out of, and they are working on a top secret mechanical  construct that they have fondly named ‘Dextero.’.</p>"
+  },
+  "cethlenn": {
+    "cardname": "Cethlenn",
+    "type": "child",
+    "url": "../img/cethlenn.png",
+    "parent": "fina-category",
+    "tagline": "Enigma",
+    "blurb": "<p>Cethlenn was raised largely in Tir, with occasional forays (often unannounced ahead of time) to other Shadows. She was taught that being kept out of sight was for her safety, as if she attracted too much attention it would put her in danger. She’s never quite been certain who the danger would come from -- Oberon? Tir? Her mother’s loyal retainers? Political machinations she’s unaware of? -- but the fact remains that she grew up ever-aware that calling attention to herself would be tantamount to suicide. Luckily, in Tir, it was easy to learn how to drift by silently.</p><p>When Princess Cethlenn, the long-lost daughter of Fina, was recognized and welcomed into Amber’s court by King Oberson, Cethlenn was perturbed to discover that she had no knowledge of the double taking her place. Her memories of that era are dim, flickers and moments and half-caught glimpses. She came back to herself in the Forest of Arden with Suil Lier, and grounded herself on Tir Na Nog’th’s Pattern hours later. Her false twin died, and Cethlenn survived the Pattern but lost her ability to remain in Tir after sunrise.</p><p>Since then, Cethlenn has slipped into the role of Princess of Amber, which another played before her.</p>"
+  },
+  "ophelia": {
+    "type": "child",
+    "cardname": "Ophelia",
+    "url": "../img/ophelia.png",
+    "parent": "milesia-category",
+    "tagline": "Flame",
+    "blurb": "<p>Eldest child and first daughter of Daughter of Oberon and Milesia.</p><p>Ophelia was a child born of rebellion during the lengthy conflict with the Lasair Caite, growing up pulling at Dworkin’s beard and chasing her pet skunk Iris. Dworkin and she took to each other, and Ophelia spent her formative years learning all she could from the old sorcerer.</p><p>Ophelia went to study - first at the Brandheim Academy in Amber, followed by time at the Jade Empire’s Crane Palace, and then at Harvard on shadow Earth. Gathering her surgical doctorate, Ophelia proceeded to modernize the Amber clinics as much as she possibly could with the limitations in place. While pioneering surgical medicine in Amber, she grew closer to Milesia, learning the powers of the Edge. When Ciara was born, Ophelia was inseparable from her younger sister, and she always was friendly to her brothers.</p><p>No one knows what drove her to  slit Milesia’s throat, the queen's death igniting as the first spark that would become the flame of Chaos.</p> "
+  },
+  "ciara": {
+    "cardname": "Ciara",
+    "type": "child",
+    "url": "../img/ciara-web.png",
+    "parent": "milesia-category",
+    "tagline": "Burned",
+    "blurb": "<p>Second daughter of Oberon and Ophelia, she has been Dworkin's student and currently serves as Amber's sorcerer in residence. She was married, for a time, to a lord of the Lasir Caite, and her children have gotten old enough to start taking an interest in Amber.</a>.</p>"
+  },
+  "borel": {
+    "cardname": "Borel",
+    "type": "child",
+    "url": "../img/borel.png",
+    "parent": "milesia-category",
+    "tagline": "Gatekeeper",
+    "blurb": "<p>Third child and first son of Oberon and Ophelia, Borel spends most of his time in what he describes as 'his studies' but which others refer to as 'plugging holes in the universe'.  He is one of the more sorcerously knowledgeable members of the family, but consistently defers to his hister on such matters. </a>."
+  },
+  "bevin": {
+    "cardname": "Bevin",
+    "type": "child",
+    "url": "../img/bevin.png",
+    "parent": "milesia-category",
+    "tagline": "Death",
+    "blurb": "<p>“Keenly aware of the family across the shadows and the challenges he has had connecting with the Lasair Caite, Bevin views the royal family of Amber as a gift, if one that has to be handled carefully. With gloves.</p><p> The prince is an incredibly gifted warrior, his reputation cemented in infamy after besting Lorec at one of the melees in Anderon’s name. Bevin is loathe to draw a blade, however, and views the explosion of life in the shadows as the ultimate gift that Amber’s creation provides. He will truly kill only as a last resort, though once the decision has been made very little will change Bevin’s mind about the task at hand.</p><p>Bevin convinced Eira Shaol to make him Amber’s ambassador to the Golden Circle and relishes exploring the primal shadows to learn every detail, every alley, every hidden statue.</p>"
+  },
+  "alaric": {
+    "cardname": "Alaric",
+    "type": "child",
+    "url": "../img/alaric.png",
+    "parent": "milesia-category",
+    "tagline": "Reveller",
+    "blurb": "<p>Alaric has done everything in his power to avoid responsibility.  Alaric vowed to get away from the endless conflicts the family found itself in and to live his life in quiet, hedonistic glory. This plan somewhat backfired, as it was Alaric who first found the shadow Earth that has become a second home for many of the family.</p><p>Alaric’s excursions and fancies into every desire imaginable inadvertently turned the prince into a master shadow manipulator. This ability, combined with motivation from Milesia’s murder, fueled Alaric’s contributions in the Red Rebellion and Abyssal reach wars. The speed in which he moved armies through the shadows is still talked of among some of the family as a thing of legend.</p>"
+  },
+  "pauol": {
+    "cardname": "Paoul",
+    "type": "child",
+    "url": "../img/pauol.png",
+    "parent": "eirashaol-category",
+    "tagline": "Prince",
+    "blurb": "<p>The declared heir to the throne of Amber, Paoul is of a temperament that is far friendlier than one might expect from being relentlessly pushed to prepare for ruling the universe. Striving to understand and relate to all of his relatives, Paul has the best upbringing, education, advisers, and food testers that can possibly be. But he has rarely been tested, and only after getting outside of the protective bubble the crown has put on their investment.</p><p>As Paoul grew into himself and the role of a Prince of Amber, he managed to establish some measure of breathing room upon walking the Pattern and finding ways to escape the Queen’s gaze with the help of siblings. Paoul’s most recent disobedience was in taking up the blade and going to fight for the defense of Rebma during the Red Rebellion. To this day, he hides who helped him get to the front, so as to protect them from the Queen’s wrath.</p><p>Now Paoul splits is time between shadow and the newly critical court of Amber.</p>"
+  },
+  "liabelle": {
+    "cardname": "Liabelle",
+    "type": "child",
+    "url": "/img/liabelle.png",
+    "parent": "eirashaol-category",
+    "tagline": "Lighthouse",
+    "blurb": "<p>Liabelle is never not at war, it is only the means which change</p>"
+  },
+  "diolinda": {
+    "cardname": "Diolinda",
+    "type": "child",
+    "url": "/img/diolinda.png",
+    "parent": "eirashaol-category",
+    "tagline": "Confidante",
+    "blurb": "<p>Diolinda is many things.  Youngest child of Oberon and Eira Shaol. Patron of the arts.  Shadow Earth enthusiast.  Oberon's favorite.  She is, indeed many things, but you can rest assured that none of those things is 'spy'.</p>"
+  },
+  "bastard": {
+    "cardname": "The Bastard",
+    "type": "child",
+    "url": "../img/bastard.png",
+    "parent": "unknown-category",
+    "tagline": "Forgotten",
+    "blurb": "Born during Velka's reign, the Bastard's name and history have been wiped from Amber's collective memory, save that he rebelled against Oberon, and it went badly for him."
+  },
+  "ava": {
+    "cardname": "Ava",
+    "type": "child",
+    "url": "../img/Ava.png",
+    "parent": "unknown-category",
+    "tagline": "Pirate",
+    "blurb": "<p>Oberon's semi-acknowldged bastard and general black ops agent.  She has been given rulership of Minos, and most opposition to that has been quashed fairly violently.  Her relationship with her father is rocky, and her siblings are still largely an unknown.  Oberon has stated that the stars say her life will not be one of peace, and to help bear that, he has allowed her to continue to bear the pattern blade <a href='https://prosperity-amber.slab.com/posts/pattern-blades-vumfpia0'>Rekamuk</a>."
+  }
+}

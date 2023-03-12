@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head', { title: 'All Posts' }) %>
+    <link rel="stylesheet" href="/styles/posts.css" />
+  </head>
+
+  <body>
+    <%- include('includes/header') %>
+    <main id="all-posts">
+      <h1>All Posts</h1>
+
+      <ul>
+        <% for (const post of postList) { %>
+        <li>
+          <h3><a href="/details/<%= post.id %>"><%= post.title %></a></h3>
+          <p><%= post.summary %> (<%= post.date.toString('YYYY-MM-dd') %>)</p>
+        </li>
+        <% } %>
+      </ul>
+    </main>
+  </body>
+</html>
