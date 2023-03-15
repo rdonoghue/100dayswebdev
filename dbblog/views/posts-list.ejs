@@ -13,10 +13,14 @@
       <ul>
         <% for (const post of postList) { %>
         <li>
-          <h3><a href="/details/<%= post.id %>"><%= post.title %></a> <%= post.id %></h3>
+          <h3><a href="/details/<%= post.id %>"><%= post.title %></a></h3>
           <p><%= post.authorname %></p>
           <p><%= post.summary %> (<%= post.date.toString('YYYY-MM-dd') %>)</p>
-          <div><a href="/edit-post/<%= post.id %>"><button class="btn">Edit Post</button></a><button class="btn">Delete Post</button></div
+          <!-- <div>
+            <a href="/edit-post/<%= post.id %>"
+              ><button class="btn">Edit Post</button></a
+            ><button class="btn">Delete Post</button>
+          </div> -->
         </li>
         <% } %>
       </ul>

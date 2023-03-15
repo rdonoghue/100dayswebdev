@@ -54,3 +54,9 @@
 #body {
   white-space: pre-wrap; /* This ensures that line breaks and whitespace are kept */
 }
+
+.button-holder {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
