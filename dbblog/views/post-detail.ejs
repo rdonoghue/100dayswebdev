@@ -8,7 +8,7 @@
   <body>
     <%- include('includes/header') %>
     <main id="post-detail">
-      <h1><%= postDetails.title %></h1>
+      <h1><%= postDetails.title %> <%= postDetails.id %></h1>
       <section id="post-meta">
         <p><%= postDetails.summary %></p>
         <p><%= postDetails.name %></p>
@@ -18,7 +18,14 @@
       <section>
         <p id="body"><%= postDetails.body %></p>
       </section>
-      <a href="/edit/<% postDetails.id %>>">Edit</a>
+      <a href="/edit-post/<%= postDetails.id %>">Edit</a>
+      <form method="POST" action="/delete">
+        <input
+          type="hidden"
+          name="delete_id"
+          value="<%= postDetails.id %>"
+        /><button class="button btn">Delete Post</button>
+      </form>
     </main>
   </body>
 </html>

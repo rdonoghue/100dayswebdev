@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('includes/head', { title: 'Add new post' }) %>
+    <link rel="stylesheet" href="/styles/forms.css" />
+  </head>
+
+  <body>
+    <%- include('includes/header') %>
+    <main>
+      <h1>Add a new post</h1>
+      <form action="/edit" method="POST">
+        <input type="hidden" id="id" name="id" value="<%= postDetails.id %>" />
+        <input
+          type="hidden"
+          id="author_id"
+          name="author_id"
+          value="<%= postDetails.author_id %>"
+        />
+
+        <div class="form-control">
+          <label for="title">Title</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            required
+            value="<%= postDetails.title %>"
+          />
+        </div>
+        <div class="form-control">
+          <label for="summary">Summary</label>
+          <input
+            type="text"
+            id="summary"
+            name="summary"
+            required
+            maxlength="255"
+            value="<%= postDetails.summary %>"
+          />
+        </div>
+        <div class="form-control">
+          <label for="content">Post Content</label>
+          <textarea id="content" name="content" required rows="5">
+<%= postDetails.body %></textarea
+          >
+        </div>
+        <div class="form-control">
+          <label for="author"
+            >Author: <%= postDetails.name %> (<%= postDetails.author_id
+            %>)</label
+          >
+        </div>
+        <button class="btn">Edit Post</button>
+      </form>
+    </main>
+  </body>
+</html>
