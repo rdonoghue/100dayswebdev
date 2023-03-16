@@ -85,6 +85,11 @@ If vertical margins disagree, they don't stack, they default to the larger on.
 
   - container-type: size or inline-size
 
+This ensures that line breaks and whitespace are kept
+body {
+white-space: pre-wrap;
+}
+
 #### sizes
 
 - rem - root element of # of pixels for font size (usually 16 pixels) - it's base 16 so the math might be fiddly

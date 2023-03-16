@@ -107,10 +107,24 @@ router.post("/delete", async function (req, res) {
 router.get("/details/:id", async function (req, res) {
   const postId = req.params.id;
   const [postDetails] = await db.query(
-    "SELECT posts.*, authors.name as name FROM POSTS JOIN  authors ON posts.author_id = authors.id  WHERE posts.id= ?",
+    "SELECT posts.*, authors.name as author_name, authors.email as author_email FROM POSTS JOIN  authors ON posts.author_id = authors.id  WHERE posts.id= ?",
     [postId]
   );
-  res.render("post-detail", { postDetails: postDetails[0] });
+  if (!postDetails || postDetails.length === 0) {
+    return res.status(404).render("404");
+  }
+
+  const postData = {
+    ...postDetails[0],
+    date: postDetails[0].date.toISOstring,
+    humanDate: postDetails[0].date.toLocaleDateString("en-US", {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+  };
+  res.render("post-detail", { postDetails: postData });
 });
 
 module.exports = router;

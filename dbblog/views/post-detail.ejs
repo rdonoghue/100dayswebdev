@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%- include('includes/head', { title: 'Post title' }) %>
+    <%- include('includes/head', { title: postDetails.title }) %>
     <link rel="stylesheet" href="/styles/posts.css" />
   </head>
 
@@ -11,8 +11,8 @@
       <h1><%= postDetails.title %></h1>
       <section id="post-meta">
         <p><%= postDetails.summary %></p>
-        <p><%= postDetails.name %></p>
-        <p><%= postDetails.date %></p>
+        <addess><a href="mailto:<%= postDetails.author_email%>"><%= postDetails.author_name %></a></address>
+        <time datetime="<%= postDetails.date %>"><%= postDetails.humanDate %></time>
       </section>
       <hr />
       <section>
