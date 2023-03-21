@@ -133,3 +133,13 @@ px only for little things like shadows, borders etc.
 [Comparing Flexbox and the Grid =>](https://academind.com/tutorials/css-grid-vs-flexbox/)
 [SVG icons](https://heroicons.dev)
 [more SVG icons](https://heroicons.com)
+
+## MongoDB
+
+To run MongoDB (i.e. the mongod process) as a macOS service, run:
+
+`brew services start mongodb-community@6.0`
+
+To stop a mongod running as a macOS service, use the following command as needed:
+
+`brew services stop mongodb-community@6.0`
